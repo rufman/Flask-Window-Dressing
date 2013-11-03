@@ -15,7 +15,7 @@ __version__ = "0.1.0"
 import functools
 from flask import request
 from .utils import unpack
-from .representations.zefr_representation import JsonResource
+from .representations.json_representation import JsonResource
 
 try:
     #noinspection PyUnresolvedReferences
